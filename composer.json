@@ -1,0 +1,20 @@
+{
+    "name": "technobd/ecourierbd",
+    "description": "eCourier.com.bd is a bicycle based courier service in Dhaka, Bangladesh. Technobd Limited developed this package for its own usugases and also want to distrubute it.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nur E Alam Khan",
+            "email": "porosh@technobd.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "ECourierBD": "src/"
+        }
+    }
+}
