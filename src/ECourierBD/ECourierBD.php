@@ -1,8 +1,8 @@
 <?php 
-namespace ECourierBD;
+namespace technobd\ecourierbd;
 class ECourierBD
 {
-    public static function ECourierBD()
+    public static function hello()
     {
         return 'Hello World, Composer!';
     }
