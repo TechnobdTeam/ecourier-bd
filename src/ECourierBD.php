@@ -14,9 +14,11 @@ class ECourierBD
     protected $production_url = "https://ecourier.com.bd/apiv2/";
 
     
+    function __construct($apiKey, $apiSecret, $userId, $sandbox = true) {
+        $this->init($apiKey, $apiSecret, $userId, $sandbox);
+    }
 
-
-    public function init($apiKey, $apiSecret, $userId, $sandbox = true)
+    private function init($apiKey, $apiSecret, $userId, $sandbox = true)
     {
         $this->api_key = $apiKey;
         $this->api_secret = $apiSecret;
